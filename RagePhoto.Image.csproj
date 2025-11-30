@@ -1,18 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net47;netcoreapp3.0-windows;net8.0-windows</TargetFrameworks>
+    <TargetFrameworks>net47;netcoreapp3.0-windows</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>RagePhoto.Image</AssemblyName>
     <RootNamespace>RagePhoto.Image</RootNamespace>
-    <Version>0.8.1</Version>
-    <AssemblyVersion>0.8.1</AssemblyVersion>
-    <FileVersion>0.8.1</FileVersion>
+    <Version>0.8.2</Version>
+    <AssemblyVersion>0.8.2</AssemblyVersion>
+    <FileVersion>0.8.2</FileVersion>
     <Authors>Syping</Authors>
     <Copyright>Copyright © 2025 Syping</Copyright>
     <Description>Image Extension for RagePhoto.Core</Description>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>libragephoto;gta5;gtav;snapmatic;rdr2;photo</PackageTags>
     <RepositoryUrl>https://github.com/Syping/RagePhoto.Image</RepositoryUrl>
     <Nullable>disable</Nullable>
   </PropertyGroup>
@@ -22,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RagePhoto.Core" Version="0.8.1" />
+    <PackageReference Include="RagePhoto.Core" Version="0.8.2" />
   </ItemGroup>
 
   <ItemGroup>
